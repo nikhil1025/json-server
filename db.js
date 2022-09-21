@@ -1,6 +1,7 @@
 const products = require("./products.json");
-const products = require("./cart.json");
+const cart = require("./cart.json");
 
 module.exports = {
-    products
+    products,
+    cart
 }
