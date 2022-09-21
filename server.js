@@ -7,4 +7,4 @@ const port = 3000;
 server.use(middlewares);
 server.use(router);
 
-server.listen(port);
+server.listen(port, () => console.log("ready"));
