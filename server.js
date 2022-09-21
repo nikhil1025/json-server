@@ -3,7 +3,7 @@ const server = jsonServer.create();
 const router = jsonServer.router(__dirname + '/db.json');
 const middlewares = jsonServer.defaults();
 require('dotenv').config({ path: require('find-config')('.env') });
-const port = process.env.PORT_NUMBER;
+const port = process.env.PORT_NUMBER || 3000;
 
 server.use(middlewares);
 server.use(router);
