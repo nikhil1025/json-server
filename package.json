@@ -4,11 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "author": "Nikhil Kumar Shrivastava",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "dotenv": "^16.0.2",
+    "json-server": "^0.17.0",
+    "nodemon": "^2.0.20"
   }
 }
